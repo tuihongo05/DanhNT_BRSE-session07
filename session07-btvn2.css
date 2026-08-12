@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  height: 120px;
+  background-color: azure;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+.box {
+  width: 120px;
+  height: 50px;
+  background-color: forestgreen;
+  color: white;
+  font-size: 10px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 50px;
+}
