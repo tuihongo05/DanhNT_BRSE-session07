@@ -1,0 +1,59 @@
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.header {
+  width: 610px;
+  height: 30px;
+  background-color: aqua;
+  color: white;
+  text-align: left;
+  font-size: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* main */
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+  height: 300px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.box1 {
+  width: 150px;
+  background-color: forestgreen;
+  color: white;
+  text-align: left;
+  font-size: 10px;
+  padding: 10px 10px;
+}
+.box2 {
+  width: 450px;
+  background-color: crimson;
+  color: white;
+  text-align: left;
+  font-size: 10px;
+  padding: 10px 10px;
+}
+
+/* footer */
+.footer {
+  width: 610px;
+  height: 30px;
+  background-color: blueviolet;
+  color: white;
+  text-align: left;
+  font-size: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
